@@ -1,0 +1,50 @@
+{
+  "agent": "drawing-generator",
+  "status": "SUCCESS",
+  "drawings": {
+    "cross_section": {
+      "title": "표준횡단면도 (Standard Cross Section)",
+      "layers": [
+        "LAYER_CONC",
+        "LAYER_REBAR",
+        "LAYER_DIM",
+        "LAYER_TEXT"
+      ],
+      "dimension_checks": {
+        "lane_width": 3.5,
+        "clearance_height": 4.5,
+        "top_slab": 0.9,
+        "bottom_slab": 1.0,
+        "wall_thickness": 0.8
+      }
+    },
+    "profile_view": {
+      "title": "종단면도 (Profile View)",
+      "layers": [
+        "LAYER_CONC",
+        "LAYER_DIM",
+        "LAYER_CENTER"
+      ]
+    },
+    "plan_view": {
+      "title": "평면도 (Plan View)",
+      "layers": [
+        "LAYER_CONC",
+        "LAYER_CENTER",
+        "LAYER_DIM"
+      ]
+    },
+    "rebar_detail": {
+      "title": "배근상세도 (Rebar Detail)",
+      "layers": [
+        "LAYER_CONC",
+        "LAYER_REBAR",
+        "LAYER_DIM"
+      ]
+    }
+  },
+  "artifacts": [
+    "artifacts/drawings/drawings.svg",
+    "artifacts/drawings/drawings.dxf"
+  ]
+}

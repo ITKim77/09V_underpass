@@ -1,0 +1,18 @@
+{
+  "agent": "bim-3d-modeler",
+  "status": "SUCCESS",
+  "mesh_vertex_count": 14520,
+  "mesh_volume_m3": 2784.0,
+  "ifc_version": "IFC4X3",
+  "ifc_entities": [
+    "IfcRoad",
+    "IfcFacilityPart",
+    "IfcSlab",
+    "IfcWall",
+    "IfcFooting"
+  ],
+  "artifacts": [
+    "artifacts/3d/underpass_model.glb",
+    "artifacts/3d/underpass_model.ifc"
+  ]
+}

@@ -6,17 +6,6 @@ dist/
 .DS_Store
 Thumbs.db
 
-# 내부 자료 (공개 저장소에서 제외)
+# 내부 참고자료
 docs/
 작업지시서.md
-MEMORY.md
-PLAN.md
-PROGRESS.md
-WORKFLOW.md
-MODELS.md
-EVALUATION_REPORT.md
-FINAL_QA_AUDIT.md
-.claude/
-scripts/
-artifacts/
-contracts/

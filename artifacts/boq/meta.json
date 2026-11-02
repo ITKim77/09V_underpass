@@ -1,0 +1,15 @@
+{
+  "agent": "quantity-estimator",
+  "status": "SUCCESS",
+  "quantities": {
+    "concrete_m3": 2784.0,
+    "formwork_m2": 6100.0,
+    "excavation_m3": 12896.1,
+    "backfill_m3": 6112.1,
+    "rebar_ton": 315.43
+  },
+  "artifacts": [
+    "artifacts/boq/bill_of_quantities.xlsx",
+    "artifacts/boq/bill_of_quantities.csv"
+  ]
+}

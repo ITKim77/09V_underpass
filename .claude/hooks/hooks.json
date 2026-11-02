@@ -1,0 +1,30 @@
+{
+  "hooks": {
+    "session-start": [
+      {
+        "description": "세션 시작 시 PROGRESS.md 및 PLAN.md 필수 로드 및 상태 인지",
+        "action": "read_ledger",
+        "files": ["PROGRESS.md", "PLAN.md"]
+      }
+    ],
+    "pre-param-update": [
+      {
+        "description": "파라미터 변경 시 시설한계 4.5m 및 기하 무결성 사전 검증",
+        "command": "/check-model"
+      }
+    ],
+    "pre-commit-qa": [
+      {
+        "description": "코드 변경 또는 산출물 저장 전 3D 체적 vs 수량산출서 오차 0.1% 미만 독립 검증",
+        "command": "/qa-verify"
+      }
+    ],
+    "session-end": [
+      {
+        "description": "세션 종료 시 PROGRESS.md 동기화 확인",
+        "command": "/sync-state"
+      }
+    ]
+  }
+}
+
